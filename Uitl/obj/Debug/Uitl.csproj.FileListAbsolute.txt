@@ -1,0 +1,8 @@
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\bin\Debug\Uitl.dll
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\bin\Debug\Uitl.pdb
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\bin\Debug\Newtonsoft.Json.dll
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\bin\Debug\Newtonsoft.Json.xml
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\obj\Debug\Uitl.csproj.CoreCompileInputs.cache
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\obj\Debug\Uitl.csproj.CopyComplete
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\obj\Debug\Uitl.dll
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Uitl\obj\Debug\Uitl.pdb

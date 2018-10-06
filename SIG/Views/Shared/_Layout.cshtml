@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html ng-app="sig.app">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>
+        Sistem de Logística - PUC
+    </title>
+    <!-- Bootstrap Core CSS -->
+    <link href="~/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- MetisMenu CSS -->
+    <link href="~/startbootstrap-sb-admin-2-gh-pages/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/startbootstrap-sb-admin-2-gh-pages/dist/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="~/startbootstrap-sb-admin-2-gh-pages/vendor/morrisjs/morris.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="~/startbootstrap-sb-admin-2-gh-pages/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body ng-controller="MainCtrl as main">
+
+    @RenderBody()
+
+    <!-- Main Angular scripts-->
+    <script src="@Url.Content("~/app/js/angular/angular.min.js")"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.2.15/angular-locale_pt-br.js"></script>
+    <script src="@Url.Content("~/app/js/ocLazyLoad-master/dist/ocLazyLoad.min.js")"></script>
+    <script src="@Url.Content("~/app/js/ui-router-master/angular-ui-router.min.js")"></script>
+    <script src="@Url.Content("~/app/js/bootstrap/ui-bootstrap-tpls-1.1.2.min.js")"></script>
+
+    <!-- Anglar App Script -->
+    <script src="@Url.Content("~/app/app.js")"></script>
+    <script src="@Url.Content("~/app/config.js")"></script>
+    <script src="@Url.Content("~/app/directives.js")"></script>
+    <script src="@Url.Content("~/app/controllers.js")"></script>
+
+
+    <script src="@Url.Content("~/app/views/dashboard/dashboard-controller.js")"></script>
+    <script src="@Url.Content("~/app/views/usuario/usuario-controller.js")"></script>
+    <script src="@Url.Content("~/app/views/frete/frete-controller.js")"></script>
+    <script src="@Url.Content("~/app/views/expedicao/expedicao-controller.js")"></script>
+
+
+    <script src="@Url.Content("~/app/service/dashboard.service.js")"></script>
+    <script src="@Url.Content("~/app/service/usuario.service.js")"></script>
+    <script src="@Url.Content("~/app/service/frete.service.js")"></script>
+    <script src="@Url.Content("~/app/service/expedicao.service.js")"></script>
+
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="~/startbootstrap-sb-admin-2-gh-pages/vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/startbootstrap-sb-admin-2-gh-pages/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="~/startbootstrap-sb-admin-2-gh-pages/vendor/metisMenu/metisMenu.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script src="~/startbootstrap-sb-admin-2-gh-pages/vendor/raphael/raphael.min.js"></script>
+    <script src="~/startbootstrap-sb-admin-2-gh-pages/vendor/morrisjs/morris.min.js"></script>
+    @*<script src="~/startbootstrap-sb-admin-2-gh-pages/data/morris-data.js"></script>*@
+
+    <!-- Custom Theme JavaScript -->
+    <script src="~/startbootstrap-sb-admin-2-gh-pages/dist/js/sb-admin-2.js"></script>
+
+    <script>
+        var __path = '@("http://" + System.Web.HttpContext.Current.Request.Url.Host + (System.Web.HttpContext.Current.Request.Url.Port != 0 ? ":" + System.Web.HttpContext.Current.Request.Url.Port : "") + (System.Web.HttpContext.Current.Request.ApplicationPath == "/" ? System.Web.HttpContext.Current.Request.ApplicationPath : System.Web.HttpContext.Current.Request.ApplicationPath + "/"))';
+    </script>
+
+
+    <script type="text/javascript">
+        XMLHttpRequest.prototype = Object.getPrototypeOf(new XMLHttpRequest);
+    </script>
+
+</body>
+</html>

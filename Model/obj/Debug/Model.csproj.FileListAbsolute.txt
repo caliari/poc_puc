@@ -1,0 +1,5 @@
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Model\bin\Debug\Model.dll
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Model\bin\Debug\Model.pdb
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Model\obj\Debug\Model.dll
+C:\Pessoal\PUC - TCC- ARQUITETURA DE SISMAS\Source\SIG\Model\obj\Debug\Model.pdb

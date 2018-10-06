@@ -1,0 +1,56 @@
+﻿<div id="FreteSimCtrl" ng-controller="FreteSimCtrl as vm">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Simular Frete</h1>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Frete
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label>Destino</label>
+                                    <input class="form-control" ng-model="vm.frete.origem" style="width:100px;">
+                                </div>
+                                <div class="form-group">
+                                    <label>Origem</label>
+                                    <input class="form-control" ng-model="vm.frete.destino" style="width:100px;">
+                                </div>
+                                <div class="form-group">
+                                    <label>Escolha um Frete abaixo:</label>
+                                    <select class="form-control" ng-model="vm.frete.valor" style="width:auto;" >
+                                        <option ng-repeat="item in vm.fretes">
+                                            {{item.preco}}
+                                        </option>
+                                    </select>
+
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg" ng-click="vm.calc();" ng-disabled="vm.loading">
+                                    <span ng-show="!vm.loading">
+                                        <i class="fa fa-calculator"></i>
+                                        &nbsp;Calcular
+                                    </span>
+                                    <span ng-show="vm.loading">
+                                        <i class="fa fa-refresh"></i>
+                                        &nbsp;calculando...
+                                    </span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.panel-body -->
+            </div>
+            <!-- /.panel -->
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+</div>

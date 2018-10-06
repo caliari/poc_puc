@@ -1,0 +1,28 @@
+﻿<div class="row border-bottom">
+    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <span minimaliza-sidebar></span>
+        </div>
+
+        <ul class="nav navbar-top-links navbar-right">
+            <li>
+                <a href="" id="btn_sair">
+                    <i class="fa fa-sign-out"></i> Sair
+                </a>
+            </li>
+        </ul>
+
+        <div class="nav navbar-top-links" style="margin-left:48.5%; margin-top: 10px;">
+            <!--<img src="/Marfrig/app/img/icone.png" alt="Icone Renovar" style="height:32px"/>-->
+            <img src="app/img/icone.png" alt="Icone Renovar" style="height:32px" />
+        </div>
+    </nav>
+</div>
+<script>
+    $("#btn_sair").click(function () {
+        $.post(__path + "Login/Logout")
+        .done(function (data) {
+            location.href = __path;
+        })
+    })
+</script>
